@@ -2,6 +2,7 @@ import { useEffect, useState, type FormEvent } from "react";
 
 const PRICE_PER_COOKIE_CENTS = 150;
 const STORAGE_KEY = "cookie-cookie-sales";
+const COST_PER_COOKIE_CENTS = 42;
 
 type PaymentMethod = "Efectivo" | "Transferencia";
 
